@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.0.0'
+
 gem 'faker'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
@@ -43,6 +45,12 @@ group :development, :test do
   gem 'spring'
 
   gem 'annotate'
+
+end
+  group :development do
+    gem 'better_errors'
+
+
 
 
 end
