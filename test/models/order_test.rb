@@ -3,9 +3,11 @@
 # Table name: orders
 #
 #  id         :integer          not null, primary key
-#  name       :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  client_id  :integer
+#  price      :string
+#  product    :string
 #
 
 require 'test_helper'

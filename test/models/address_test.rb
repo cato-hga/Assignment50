@@ -3,9 +3,11 @@
 # Table name: addresses
 #
 #  id         :integer          not null, primary key
-#  name       :string
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  client_id  :integer
+#  street     :string
+#  city       :string
 #
 
 require 'test_helper'
