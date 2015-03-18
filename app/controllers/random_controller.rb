@@ -6,10 +6,10 @@ class RandomController < ApplicationController
  #   a comment above as to why each is used.
 
  # Find the client with primary key (id) 10.
-    client = Client.find(1)
+    client = Client.find(82)
 
  # Find the clients with primary keys 1 and 2.
-    client = Client.find([1, 2])
+    client = Client.find([82, 83])
  # Take method retrieves a record without any implicit ordering
     client = Client.take
 
@@ -35,7 +35,7 @@ class RandomController < ApplicationController
 
 # The find_by method finds the first record matching some conditions. For example:
 
-    Client.find_by(first_name: 'John')
+    Client.find_by(first_name: 'Bradley')
 
 # Section 2 Conditions
 
