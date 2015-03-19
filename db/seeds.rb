@@ -36,3 +36,4 @@ Order.delete_all
                product: Faker::Commerce.price)
 
 end
+

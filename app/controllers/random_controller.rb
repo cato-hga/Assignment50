@@ -8,6 +8,7 @@ class RandomController < ApplicationController
  # Find the client with primary key (id) 10.
     client = Client.find(82)
 
+
  # Find the clients with primary keys 1 and 2.
     client = Client.find([82, 83])
  # Take method retrieves a record without any implicit ordering
